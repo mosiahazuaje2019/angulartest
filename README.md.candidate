@@ -1,4 +1,4 @@
-## Code Challenge for Angular Front End Developer
+## Code Challenge - Angular
 
 
 ### Task Description
@@ -21,4 +21,11 @@ The app should be responsive and include the following features:
  - [ ] Implement responsive design using CSS or a CSS framework (e.g., Bootstrap).
  - [ ] Use RxJS for handling asynchronous data fetching.
  - [ ] Write clean, maintainable code adhering to SOLID principles.
+
+ ---
+
+## Running the project
+- Run, in the root of the project:
+  - `./run.sh`
+- Follow the instructions on the script output
 

@@ -1,6 +1,18 @@
-Job 5448, 4858 
+> [!IMPORTANT]  
+> Before starting, create a public GitHub/GitLab repository and share the link with the interviewer.
 
-## Code Challenge for Angular Front End Developer
+> [!TIP]  
+> If you'd like to use this project as a template instead of setting up yours from scratch:
+> - Create a public GitHub/GitLab repository
+>   - Copy the clone URL (example: git@github.com:CoinBR/tmp.git) 
+> - Clone this repository (the challenge)
+>   - Navigate to its folder in the terminal
+>   - Run this command to load the submodules:
+>     - `git submodule update --init --recursive --remote`
+>   - Run this command with your repository URL: 
+>     - `submodules/clone_and_claim/run.sh ___YOUR_REPOSITORY_URL___`
+
+## Code Challenge - Angular 
 
  
 ### Task Description  
@@ -24,24 +36,10 @@ The app should be responsive and include the following features:
  - [ ] Use RxJS for handling asynchronous data fetching.  
  - [ ] Write clean, maintainable code adhering to SOLID principles.  
 
-### If you want to use this template
-`export candidate_repo='___YOUR_REPOSITORY_URL___'`
+ ---
 
-    [ "$candidate_repo" = "___YOUR_REPOSITORY_URL___" ] \
-      && echo "invalid candidate repo" \
-      && exit 1
-
-    export original_repo_name='code_challenge_job_5448_4858'
-    git clone "https://github.com/CoinBR/${original_repo_name}"
-    cd ${original_repo_name}
-
-    rm -rf .git
-    rm README.md
-    mv README.md.candidate README.md
-    
-    git init
-    git add .
-    git commit -m "initial commit"
-    git remote add origin ${candidate_repo}
-    git push -u origin master
+## Running the project
+- Run, in the root of the project:
+  - `./run.sh`
+- Follow the instructions on the script output
 
